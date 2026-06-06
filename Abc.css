@@ -1,0 +1,67 @@
+body{
+    color:red;
+    background-color:white;
+}
+
+p{
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+}
+
+img{
+    height:800px;
+    width:1200px;
+    border-radius:500px;
+}
+
+video{
+    height:800px;
+    width:1200px;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style-type: none;
+}
+
+button{
+    background-color:rgb(247, 7, 7);
+    padding: 10px;
+    margin: 20px;
+}
+
+buton:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    padding: 50px;
+    border: 3px solid red;
+    margin: 30px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#p1{
+    font-style: italic;
+}
+#p2{
+    font-style: normal;
+}
+.group{
+    font-size: xx-large;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 335 335 335;
+}
+
+
